@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  background:black;
+  color:#19ff00;
+  font-family:monospace;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+#terminal{
+  width:900px;
+  height:550px;
+  border:2px solid #19ff00;
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+}
+#output{flex:1;overflow:auto;}
+.input{display:flex;}
+input{
+  flex:1;
+  background:black;
+  border:none;
+  color:#19ff00;
+  outline:none;
+}
