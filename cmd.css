@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  background:#001;
+  color:cyan;
+  font-family:monospace;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+#cmd{
+  width:900px;
+  height:500px;
+  border:2px solid cyan;
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+}
+#out{flex:1;overflow:auto;}
+.input{display:flex;}
+input{
+  flex:1;
+  background:#001;
+  border:none;
+  color:cyan;
+  outline:none;
+}
